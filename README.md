@@ -1,12 +1,17 @@
-# BLOG_app
-create a environment  python3 -m venv django_env 
+_create a environment_
 
-activate environment  source django_env/bin/activate  Commands to run the project
+- python3 -m venv django_env
 
-python3 manage.py makemigrations 
+_activate environment_
 
-python3 manage.py migrate
+- source django_env/bin/activate
 
-python3 manage.py runserver  
+_Commands to run the project_
+- python3 manage.py makemigrations
+- python3 manage.py migrate 
+- python3 manage.py runserver
 
-If any error occured with module name not found   pip install &lt;module_name>
+
+
+> If any error occured with module name not found
+- pip install <module_name>
